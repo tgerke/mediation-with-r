@@ -1,0 +1,29 @@
+---
+title: "Mediation with R"
+author: "Travis Gerke"
+date: "`r Sys.Date()`"
+output: revealjs
+footer:  "[Mediation with R](https://github.com/tgerke/mediation-with-r)"
+#logo: "img/some-logo.png"
+format: 
+  revealjs: 
+    theme: [night, slides.scss]
+    highlight-style: a11y
+    transition: fade
+    slide-number: true
+editor: visual
+execute:
+  freeze: auto
+---
+
+```{=html}
+<!--#
+Quarto revealjs styling credit: 
+https://github.com/shannonpileggi/iterating-well-with-purrr
+-->
+```
+```{r}
+library(tidyverse)
+```
+
+# Introduction
